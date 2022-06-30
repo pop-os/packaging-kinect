@@ -1,0 +1,13 @@
+kinect (3.10.002-1pop1) jammy; urgency=medium
+
+  * Package for 22.04
+
+ -- Michael Aaron Murphy <mmstick@gaze15.lan>  Thu, 30 Jun 2022 16:00:18 +0200
+
+kinect (2.8.002-0ubuntu1~x1~ubuntu18.04) bionic; urgency=low
+
+  * Initial packaging of Kinect 2.8-002 (sha1sum
+    9992eb141d5444b34cd69671b4c05d745b007719)
+
+ -- Jason Gerard DeRose <jason@system76.com>  Mon, 23 May 2016 16:18:49 -0600
+

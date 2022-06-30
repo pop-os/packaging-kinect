@@ -1,0 +1,3 @@
+usr/lib/*/Vrui*/libKinect.so*
+usr/share/Vrui*/Kinect*/Shaders/
+lib/udev/rules.d/

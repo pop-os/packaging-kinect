@@ -1,0 +1,47 @@
+Source: kinect
+Section: libs
+Priority: optional
+Maintainer: Jason Gerard DeRose <jason@system76.com>
+Build-Depends: debhelper (>= 9),
+    libvrui3-dev (>= 8.0),
+    libudev-dev,
+    libusb-1.0-0-dev,
+    zlib1g-dev,
+    libpng-dev,
+    libjpeg-dev,
+    libtiff-dev,
+    libasound2-dev,
+    libspeex-dev,
+    libopenal-dev,
+    libv4l-dev,
+    libdc1394-dev,
+    libtheora-dev,
+    libbluetooth-dev,
+    mesa-common-dev,
+    libgl1-mesa-dev,
+    libglu1-mesa-dev,
+Standards-Version: 3.9.7
+Homepage: http://idav.ucdavis.edu/~okreylos/ResDev/Kinect/
+
+Package: libkinect3
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: Kinect toolkit - shared library
+ FIXME.
+
+Package: libkinect3-dev
+Section: libdevel
+Architecture: amd64
+Provides: libkinect-dev
+Depends: ${shlibs:Depends}, ${misc:Depends},
+    libkinect3 (= ${binary:Version}),
+Description: Kinect toolkit - shared library development files
+ FIXME.
+
+Package: kinect
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},
+    libkinect3 (= ${binary:Version}),
+    vrui (>= 8.0),
+Description: Kinect toolkit
+ FIXME.
